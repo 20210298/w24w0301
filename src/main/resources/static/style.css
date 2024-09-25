@@ -1,30 +1,21 @@
-div {
-    background-color: #A8D1D1;
-    padding: 1rem;
+.container {
+  position: relative;
 }
 
-.song {
-    background-color: #FD8A8A;
-    margin: 16px;
-    padding: 16px;
+.container:hover {
+  transform: scale(1.02);
+  font-weight: bold;
 }
 
-li {
-    list-style-type: none;
+a {
+  color: white;
 }
 
-/*
-#item1 {
-    font-weight: bold;
-}
-
-li:nth-child(odd) {
-    font-weight: bold;
-}
-*/
-
-li div:hover {
-    font-weight: bold;
-    font-size: 1.1rem;
-    background-color: #F1F785;
+.song-title {
+  position: absolute;
+  width: 568px;
+  bottom: 5px;
+  padding: 16px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.5);
 }
